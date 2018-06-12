@@ -1,0 +1,66 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B94C96B8-0477-4213-8A94-43B696AF797C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{92FD090B-1804-4ADE-BE44-C27A5010B726}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Hashing.Extensions", "src\Ofl.Hashing.Extensions\Ofl.Hashing.Extensions.csproj", "{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Hashing.Extensions.Tests", "test\Ofl.Hashing.Extensions.Tests\Ofl.Hashing.Extensions.Tests.csproj", "{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{255874A7-5D32-4BCA-9215-78C03C63162F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		Ofl.Hashing.Extensions.sln.DotSettings = Ofl.Hashing.Extensions.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}.Debug|x64.Build.0 = Debug|Any CPU
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}.Debug|x86.Build.0 = Debug|Any CPU
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}.Release|x64.ActiveCfg = Release|Any CPU
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}.Release|x64.Build.0 = Release|Any CPU
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}.Release|x86.ActiveCfg = Release|Any CPU
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E}.Release|x86.Build.0 = Release|Any CPU
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}.Debug|x64.Build.0 = Debug|Any CPU
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}.Debug|x86.Build.0 = Debug|Any CPU
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}.Release|x64.ActiveCfg = Release|Any CPU
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}.Release|x64.Build.0 = Release|Any CPU
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C95CFB3-CE58-4E05-A3B2-B05F3971F55E} = {B94C96B8-0477-4213-8A94-43B696AF797C}
+		{DA2631C5-BB95-46AC-8B01-DED7B177FBE8} = {92FD090B-1804-4ADE-BE44-C27A5010B726}
+	EndGlobalSection
+EndGlobal
