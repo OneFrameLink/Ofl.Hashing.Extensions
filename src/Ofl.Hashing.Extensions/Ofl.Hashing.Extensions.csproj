@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard1.1</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <Description>Extensions for implementations of Ofl.Hashing.Abstractions.</Description>
     <AssemblyName>Ofl.Hashing.Extensions</AssemblyName>
     <PackageId>Ofl.Hashing.Extensions</PackageId>
     <PackageProjectUrl>https://github.com/OneFrameLink/Ofl.Hashing.Extensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/OneFrameLink/Ofl.Hashing.Extensions.git</RepositoryUrl>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <Version>1.0.0</Version>
+    <Version>2.0.0</Version>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Ofl.Hashing.Abstractions" Version="2.0.3" />
-    <PackageReference Include="System.Interactive.Async" Version="3.1.1" />
+    <PackageReference Include="Ofl.Hashing.Abstractions" Version="3.0.5" />
   </ItemGroup>
 </Project>

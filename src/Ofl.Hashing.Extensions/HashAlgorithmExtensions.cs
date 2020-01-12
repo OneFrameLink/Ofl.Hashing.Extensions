@@ -6,8 +6,10 @@ namespace Ofl.Hashing.Extensions
 {
     public static class HashAlgorithmExtensions
     {
-        public static int GetHashCode(this IHashAlgorithm hashAlgorithm, params int[] hashCodes) =>
-            hashAlgorithm.GetHashCode((IEnumerable<int>) hashCodes);
+        public static int GetHashCode(
+            this IHashAlgorithm hashAlgorithm, 
+            params int[] hashCodes
+        ) => hashAlgorithm.GetHashCode((IEnumerable<int>) hashCodes);
 
         public static int GetHashCode(this IHashAlgorithm hashAlgorithm, IEnumerable<int> hashCodes)
         {
